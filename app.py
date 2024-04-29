@@ -1,6 +1,7 @@
 import streamlit as st 
 import pandas as pd
 import pickle
+from sklearn.tree import DecisionTreeRegressor
 
 def co2_mean():
     data = pd.read_csv("co2_data_merged.csv")
